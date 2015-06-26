@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sample_App</string>
+
+    <string name="queue_app">Queue App</string>
+    <string name="add_queue">Add Queue</string>
+    <string name="call_next">Call Next</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_queue">QueueActivity</string>
+    <string name="queue_list">Queue List</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
