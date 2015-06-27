@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MRT Adventure Stories</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">MRT Adventure Stories</string>
+    <string name="addbutton">New Story</string>
+    <string name="title_activity_new_story">New Story</string>
+    <string name="form_title_hint">Story Title</string>]
+    <string name="form_body_hint">Your story here...</string>
+    <string name="form_submit">Submit</string>
+</resources>
