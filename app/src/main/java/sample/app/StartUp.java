@@ -1,10 +1,13 @@
 package sample.app;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ListView;
+import android.widget.TabHost;
 import android.widget.Toast;
 
 
@@ -38,9 +41,9 @@ public class StartUp extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick (View view) {
-        Toast.makeText(this, "Button 1 pressed",
-                Toast.LENGTH_LONG).show();
+    public void onClickAddQueue (View view) {
+        Intent intent = new Intent(this, QueueActivity.class);
+        ListView queueList = (ListView) findViewById(R.id.queuelist);
+        startActivity(intent);
+        }
     }
-
-}
